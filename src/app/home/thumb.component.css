@@ -1,0 +1,15 @@
+.well div {
+    color: rgb(113, 178, 196);
+}
+
+.thumbnail {
+    min-height: 210px;
+}
+
+.greenish {
+    color: greenyellow !important;
+}
+
+.redish {
+    color: rgb(230, 84, 84) !important;
+}

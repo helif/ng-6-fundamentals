@@ -1,0 +1,11 @@
+<div>
+    <h2>Upcoming Events</h2>
+    <hr/>
+    <div class="row">
+        <div class="col-md-5" *ngFor="let evt of events">
+            <thumb-component #thumbnailComp [event]="evt" 
+            (click)="handleClick(evt?.name)" (eventClick)="handleEventClick($event)"></thumb-component>
+        </div>
+    </div>
+    <!-- <button class="btn btn-primary" (click)="thumbnailComp.handleExternalClick()">{{thumbnailComp.someProperty}}</button> -->
+</div>
